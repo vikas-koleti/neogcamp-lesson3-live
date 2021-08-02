@@ -4,174 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet"/>
-
+    <title>home | Vicky Dada</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
-
 <body>
-    <h1>Welcome to Vicky's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
 
-    <hr >
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <p>This paragraph will have a <strong>bold</strong>text. </p>
-    <small>This is relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container-fluid">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>links</h2>
-
-    <a href="https://google.com">Google</a>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-
-    <h3>unordered inline list</h3>
-
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    
-    <ol>
-        <li>Milk</li>
-        <li>Egg</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Vicky Dada</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
 
-    <h2>header</h2>
-
-    <header>
-        <img src="images/hero.svg" />
-
-        <h1>heading inside hero</h1>
-
-
+        <h1 class="hero-heading">Vicky Dada the <span class="heading-inverted">web developer</span> </h1>
     </header>
 
-    <hr>
 
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5,CSS3,Git, JavaScript, NodeJS,ReactJS,Web Hosting.</p>
+            <p>I am a newbie with Machine Learning and Artificial Intelligence.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus you can see my projects hosted online.</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
     </section>
 
-    <hr>
 
-    <h2>@footer</h2>
-    
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some vedic astrology and vaastu shastra. I like to document my journey and learning</p>
+            <a class="link link-primary" href="/">Read Blogs</a>
+        </div>
+    </section>
 
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialOne</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+    <footer class="footer">
+        <div class="footer-header">Connect me through Social Media</div>
+        <ul class="social-links list-non-bullet">
+
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/vikas-koleti">   
+                    GitHub
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/vickyB2S">   
+                    Twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/vikas-koleti-4771b7104/">   
+                    Linkedin
+                </a>
+            </li>
+
+
+
+
         </ul>
     </footer>
 
 
-
+     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div style="height: 30vh;">
-    
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 </body>
 </html>
-
-
